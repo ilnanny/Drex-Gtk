@@ -1,9 +1,0 @@
-[X-GNOME-Metatheme]
-Name=Drex
-Type=X-GNOME-Metatheme
-Comment=Another Theme
-Encoding=UTF-8
-GtkTheme=Drex
-MetacityTheme=Drex
-CursorTheme=Adwaita
-CursorSize=24

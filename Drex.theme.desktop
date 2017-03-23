@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=drex GTK+ Theme
+Icon=preferences-desktop-theme
+Exec=bash -c 'notify-send "Drex GTK+ Theme" "Getting the latest version of the drex themes..." -i system-software-update; cd /tmp/; rm -Rf /tmp/drex-gtk-theme.zip 2>/dev/null; rm -Rf /tmp/drex-gtk-theme-master/ 2>/dev/null; wget https://github.com/snwh/drex-gtk-theme/archive/master.zip -O drex-gtk-theme.zip; unzip drex-gtk-theme.zip; cd drex-gtk-theme-master; rm -Rf "$HOME/.local/share/themes/drex" 2>/dev/null; install -d $HOME/.local/share/themes; cp -R ./drex/ $HOME/.local/share/themes/; install -d $HOME/.themes; cp -R ./drex/ $HOME/.themes/;gsettings reset org.gnome.desktop.interface theme; gsettings set org.gnome.desktop.interface theme "drex"; notify-send "All done!" "Enjoy the latest version of drex!" -i face-smile'

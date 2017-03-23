@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Drex64
+Comment=Xfce flat theme 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Drex64
+CursorTheme=DMZ-White
+CursorSize=24
+ButtonLayout=menu:minimize,maximize,close
