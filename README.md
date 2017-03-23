@@ -1,5 +1,5 @@
 # Drex-Gtk
-Complete gtk theme for gnu-linux and unix-like  o.s.
+<b>Complete gtk theme for gnu-linux and unix-like  o.s.</b>
 <hr align=”left” size=”1″ width=”300″ color=”red” noshade>
 <hr align=”left” size=”1″ width=”300″ color=”red” noshade>
 Include GTK2 GTK3 METACITY OPENBOX XFWM
