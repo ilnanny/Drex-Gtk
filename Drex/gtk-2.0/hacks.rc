@@ -11,7 +11,7 @@ style "toplevel_hack" {
 }
 
 style "chrome_entry" {
-  base[NORMAL] = "#182439"
+  base[NORMAL] = "#344451"
   base[INSENSITIVE] = @base_color
 }
 

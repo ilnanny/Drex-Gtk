@@ -5,8 +5,8 @@
 
 style "dark_insensitive" {
 
-  fg[INSENSITIVE]   = "#3A4C69"
-  text[INSENSITIVE] = "#3A4C69"
+  fg[INSENSITIVE]   = "#5E7081"
+  text[INSENSITIVE] = "#5E7081"
 
 }
 
